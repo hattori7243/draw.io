@@ -1,1 +1,41 @@
-<mxfile host="www.draw.io" modified="2019-10-23T08:59:38.513Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="H_IV-Qd_0xyL0MQOLbiy" version="12.1.3" type="github" pages="1"><diagram id="bWigWp4miw0SnIskppHR" name="第 1 页">3Vjfb5swEP5reKwUoEDyuNC0fVilqa027aly4AqOHJuao0n61+8MJoSwVVmVbFEf+OHPZ5v77ruLHcePl+sbzYr8TqUgHG+Urh3/yvE81x2H9DDIpkGiSdAAmeapNeqAB/4GFhxZtOIplD1DVEogL/pgoqSEBHsY01qt+mbPSvRXLVgGA+AhYWKI/uAp5g069qIOvwWe5e3KbjhpepasNbaelDlL1WoH8meOH2ulsHlbrmMQhryWl2bc9R96tx+mQeIhAyZv9/fff8ZicbMox6KaP7r89sJvZnllorIO24/FTcsApESIbSqNucqUZGLWoVOtKpmCWWZErc7mq1IFgS6BC0Dc2OiyChVBOS6F7X1WEm2nG1B76Jr1tlSVTuAdf1qJMJ0BvmNn3TS+7SxgibsBtQTUGzLQIBjy174YmNVUtrXraKcXy/xfRMEdRKEkD3AYCiFI94byVc4RHgpWk7Gi1Psgoa+gEdbvUtD2jqyObSK3sl51WeG2WL6TEePRiUgLP5l0vQOlG5yVdL1BFCQ9zHKhIC+mc90LSfhSmXpX03ZR1rx9IQM3KNY1eW0/vWXmSXmA8FQ2hERT0lLsOrNrZxo749iJPWca9e5eLCmboqsjLc9EkbN5uzqj6ed0JXSldNHQmExjYi6myenhH2/pl6dRrcpjzcaSBArjiDQxO9KkGhbNj65h/TiTcllU2Bu5+7aX4P30/fdF0Q96NdG9HBZFL/hNUXT9U1XF8SerisGBVTE6q6oYDKJA+9MSdUXJQs5oJkuOXElqzM1XYQ50f6w0l9nFHUtyLqEOGlW/emtMe+tzF78fHCj+8FTab88Mn0b8Rxe1HfpNcYk7W7uwv7UL96tTk3121F6Qtp/x8bhFg7BpwEqb7Hi8O3fZX07+u+yHx4eZTIfKP6PDw1ZhJzg9ULM7VDcS7f6a8Ge/AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-10-23T09:18:59.546Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="nw8DWIze1b4Unnf3gn4V" version="12.1.3" type="github" pages="1">
+  <diagram id="bWigWp4miw0SnIskppHR" name="第 1 页">
+    <mxGraphModel dx="1186" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="9zRRVYCljGjs8lubT1iH-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontFamily=Times New Roman;" parent="1" target="9zRRVYCljGjs8lubT1iH-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="100" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9zRRVYCljGjs8lubT1iH-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontFamily=Times New Roman;" parent="1" source="9zRRVYCljGjs8lubT1iH-2" target="9zRRVYCljGjs8lubT1iH-5" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="9zRRVYCljGjs8lubT1iH-2" value="n=21&lt;br style=&quot;font-size: 18px;&quot;&gt;state_set={0,1，···,n-1}&lt;br style=&quot;font-size: 18px;&quot;&gt;alphabet={a,b,c,d,A,B,C,D,#}&lt;br style=&quot;font-size: 18px;&quot;&gt;q_0=0&lt;br style=&quot;font-size: 18px;&quot;&gt;q_accept=n-2&lt;br style=&quot;font-size: 18px;&quot;&gt;q_reject=n-1&lt;br style=&quot;font-size: 18px;&quot;&gt;input=&quot;&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="35" y="140" width="250" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="9zRRVYCljGjs8lubT1iH-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontFamily=Times New Roman;" parent="1" source="9zRRVYCljGjs8lubT1iH-5" target="9zRRVYCljGjs8lubT1iH-7" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="9zRRVYCljGjs8lubT1iH-5" value="construct transition by the Turing-Machine state graph" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="35" y="350" width="250" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="9zRRVYCljGjs8lubT1iH-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontFamily=Times New Roman;" parent="1" source="9zRRVYCljGjs8lubT1iH-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="630" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9zRRVYCljGjs8lubT1iH-7" value="return TM" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="35" y="490" width="250" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="oHD9cq2maCNtRYhTebua-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="oHD9cq2maCNtRYhTebua-2" value="End" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="100" y="630" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
