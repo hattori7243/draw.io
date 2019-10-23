@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-23T15:01:32.529Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="S6pAYfxPPvGwBznQ0lbU" version="12.1.4" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-23T15:04:48.927Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="UQYOFn_wHz1euU9v4KAE" version="12.1.4" type="github" pages="1">
   <diagram id="bWigWp4miw0SnIskppHR" name="第 1 页">
     <mxGraphModel dx="1186" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="9zRRVYCljGjs8lubT1iH-2" value="n=21&lt;br style=&quot;font-size: 18px;&quot;&gt;state_set={0,1，···,n-1}&lt;br style=&quot;font-size: 18px;&quot;&gt;alphabet={a,b,c,d,A,B,C,D,#}&lt;br style=&quot;font-size: 18px;&quot;&gt;q_0=0&lt;br style=&quot;font-size: 18px;&quot;&gt;q_accept=n-2&lt;br style=&quot;font-size: 18px;&quot;&gt;q_reject=n-1&lt;br style=&quot;font-size: 18px;&quot;&gt;input=&quot;&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="56" y="152" width="250" height="160" as="geometry"/>
+          <mxGeometry x="11" y="152" width="340" height="160" as="geometry"/>
         </mxCell>
         <mxCell id="9zRRVYCljGjs8lubT1iH-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontFamily=Times New Roman;" parent="1" source="9zRRVYCljGjs8lubT1iH-5" target="9zRRVYCljGjs8lubT1iH-7" edge="1">
           <mxGeometry relative="1" as="geometry"/>
