@@ -1,1 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2020-05-14T12:08:03.127Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" version="13.1.1" etag="ReyI2EFGr3GQFDjSQUmj" type="github"><diagram id="Zgp-13TrAlXwP6_f0GoF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-05-14T12:13:11.148Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="uRoXNp3MHSpyJHQlOcE9" version="13.1.1" type="github">
+  <diagram id="Zgp-13TrAlXwP6_f0GoF" name="Page-1">
+    <mxGraphModel dx="1298" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5TDPzjq4kLIdW3nvB65Q-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5TDPzjq4kLIdW3nvB65Q-1" target="5TDPzjq4kLIdW3nvB65Q-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5TDPzjq4kLIdW3nvB65Q-1" value="选取合适的数据集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5TDPzjq4kLIdW3nvB65Q-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5TDPzjq4kLIdW3nvB65Q-2" target="5TDPzjq4kLIdW3nvB65Q-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5TDPzjq4kLIdW3nvB65Q-2" value="对数据进行预处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5TDPzjq4kLIdW3nvB65Q-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5TDPzjq4kLIdW3nvB65Q-5" target="5TDPzjq4kLIdW3nvB65Q-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5TDPzjq4kLIdW3nvB65Q-5" value="结合数据集给出具体的网络安全态势的定义并选定评估模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="210" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5TDPzjq4kLIdW3nvB65Q-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5TDPzjq4kLIdW3nvB65Q-7" target="5TDPzjq4kLIdW3nvB65Q-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5TDPzjq4kLIdW3nvB65Q-7" value="结合数据特点和网络安全态势定义对长短期记忆网络进行优化改进" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="320" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5TDPzjq4kLIdW3nvB65Q-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5TDPzjq4kLIdW3nvB65Q-9" target="5TDPzjq4kLIdW3nvB65Q-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5TDPzjq4kLIdW3nvB65Q-9" value="对态势进行评估和预测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5TDPzjq4kLIdW3nvB65Q-11" value="对预测结果进行评判" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="550" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5TDPzjq4kLIdW3nvB65Q-15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5TDPzjq4kLIdW3nvB65Q-11" target="5TDPzjq4kLIdW3nvB65Q-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="600" as="sourcePoint" />
+            <mxPoint x="535" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="590" />
+              <mxPoint x="680" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5TDPzjq4kLIdW3nvB65Q-16" value="预测效果不好" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="560" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
